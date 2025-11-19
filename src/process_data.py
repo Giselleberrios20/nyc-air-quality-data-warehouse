@@ -3,7 +3,7 @@ import pandas as pd
 #Load the RAW dataset
 raw = pd.read_csv("../data/raw/air_quality_raw.csv")
 
-#Clean + select important columns
+#Clean
 processed = raw[[
     "indicator_id",
     "geo_place_name",
