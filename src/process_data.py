@@ -1,11 +1,11 @@
 import pandas as pd
 from google.cloud import storage
 
-# STEP 1: LOAD DATA
+# Load Data
 
 raw = pd.read_csv("../data/raw/air_quality_raw.csv")
 
-# STEP 2: CLEAN DATA
+# Clean
 
 processed = raw[[
     "indicator_id",
@@ -19,15 +19,15 @@ processed.rename(columns={
     "data_value": "avg_value"
 }, inplace=True)
 
-# Save cleaned file locally
+# Save cleaned
 processed.to_csv("../data/processed/air_quality_processed.csv", index=False)
 
-print("Processing complete! Saved to /data/processed/air_quality_processed.csv")
+print("Processing complete: Saved to /data/processed/air_quality_processed.csv")
 
-# UPLOAD TO GOOGLE CLOUD STORAGE
+# GOOGLE CLOUD STORAGE
 
 def upload_to_gcs(bucket_name, local_file_path, destination_blob_name):
-    """Uploads a local file to a Google Cloud Storage bucket."""
+    """Uploads a local file to a Google Cloud Storage bucket"""
     client = storage.Client()
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(destination_blob_name)
@@ -49,4 +49,4 @@ upload_to_gcs(
     destination_blob_name="air_quality_processed.csv"
 )
 
-print("Uploads to Google Cloud Complete!")
+print("Uploads to Google Cloud Complete :) ")
