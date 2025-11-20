@@ -30,13 +30,11 @@ Then run the script:
 python src/process_data.py  
 
 ## Storage Choice:
-I used Google Cloud St:orage to store my data.  
-
+I created a bucket named air-quality-data-giselle, and uploaded my raw dataset (air_quality_raw.csv) directly into this bucket.
 Bucket name: air-quality-data-giselle  
 
 Files stored:  
-air_quality_raw.csv  
-air_quality_processed.csv  
+air_quality_raw.csv
 
 The bucket is set to be private.
 
@@ -95,5 +93,5 @@ src/process_data.py
 README.md  
 
 ## Cloud Storage Location:
-Files are stored in:  
+Google Cloud Storage:  
 gs://air-quality-data-giselle/ 
