@@ -1,4 +1,4 @@
-# NYC Air Quality Data Warehouse Assignment 1
+# NYC Air Quality Data Warehouse Assignment 1 :)
 
 Assignment 1: It includes data sourcing, data storage, and building a data warehouse model using the NYC Open Data Air Quality dataset.
 
