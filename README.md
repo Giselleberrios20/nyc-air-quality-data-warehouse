@@ -31,6 +31,7 @@ python src/process_data.py
 
 ## Storage Choice:
 I created a bucket named air-quality-data-giselle, and uploaded my raw dataset (air_quality_raw.csv) directly into this bucket.
+
 Bucket name: air-quality-data-giselle  
 
 Files stored:  
