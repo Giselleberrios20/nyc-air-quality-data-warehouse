@@ -42,44 +42,40 @@ The bucket is set to be private.
 ## Data Warehouse Model:
 This project uses a star schema with one fact table and three dimension tables.
 
-## Dimension Tables:
+## Data Warehouse Model (Star Schema):
 
-dim_date  
-date_key  
-time_period  
-start_date  
+## Dimension Tables
 
-dim_location  
-location_key  
-geo_type_name  
-geo_join_id  
-geo_place_name  
+**dim_date**
+date_key (PK)
+time_period
+start_date
 
-dim_indicator  
-indicator_key  
-indicator_id  
-name  
-measure  
-measure_info  
+**dim_location**
+location_key (PK)
+geo_type_name
+geo_join_id
+geo_place_name
 
-## Fact Table:
+**dim_indicator**
+indicator_key (PK)
+indicator_id
+name
+measure
+measure_info
 
-fact_air_quality  
-fact_id  
-unique_id  
-indicator_key  
-location_key  
-date_key  
-data_value  
-message  
+## Fact Table
 
-## Simple Diagram:  
-dim_indicator →  
-                  \  
-                   fact_air_quality  
-                  /  
-dim_location →  
-dim_date →  
+**fact_air_quality**
+fact_id (PK)
+date_key (FK)
+location_key (FK)
+indicator_key (FK)
+aqi_value
+
+## Star Schema Diagram:
+
+![Star Schema](model/nyc_air_quality_star_schema.png)
 
 ## SQL Script:
 The SQL used to create the tables is stored in:  
