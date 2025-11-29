@@ -75,7 +75,7 @@ aqi_value
 
 ## Star Schema Diagram:
 
-![Star Schema](model/nyc_air_quality_star_schema.png)
+![Star Schema](nyc_air_quality_star_schema.png)
 
 ## SQL Script:
 The SQL used to create the tables is stored in:  
