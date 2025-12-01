@@ -1,7 +1,11 @@
 CREATE TABLE dim_date (
-    date_key INT PRIMARY KEY,
-    time_period TEXT,
-    start_date DATE
+    date_key SERIAL PRIMARY KEY,
+    measurement_date DATE,
+    year INT,
+    quarter INT,
+    month INT,
+    day INT,
+    time_period TEXT
 );
 
 CREATE TABLE dim_location (
@@ -14,20 +18,18 @@ CREATE TABLE dim_location (
 CREATE TABLE dim_indicator (
     indicator_key SERIAL PRIMARY KEY,
     indicator_id INT,
-    name TEXT,
+    indicator_name TEXT,
     measure TEXT,
     measure_info TEXT
 );
 
 CREATE TABLE fact_air_quality (
     fact_id SERIAL PRIMARY KEY,
-    unique_id TEXT,
-    indicator_key INT,
-    location_key INT,
     date_key INT,
-    data_value FLOAT,
-    message TEXT,
-    FOREIGN KEY (indicator_key) REFERENCES dim_indicator(indicator_key),
-    FOREIGN KEY (location_key) REFERENCES dim_location(location_key),
-    FOREIGN KEY (date_key) REFERENCES dim_date(date_key)
+    location_key INT,
+    indicator_key INT,
+    data_value NUMERIC(10,2),
+    data_value_rounded NUMERIC(10,1),
+    air_quality_level TEXT
 );
+
