@@ -1,4 +1,4 @@
-# NYC Air Quality Data Warehouse Assignment 1 :)
+# NYC Air Quality Data Warehouse :)
 
 Assignment 1: It includes data sourcing, data storage, and building a data warehouse model using the NYC Open Data Air Quality dataset.
 
@@ -92,3 +92,34 @@ README.md
 ## Cloud Storage Location:
 Google Cloud Storage:  
 gs://air-quality-data-giselle/ 
+
+# Transformation, Modeling, and Visualization
+
+## Data Transformation:
+The data was transformed using SQL. 
+
+Transformation SQL script is located in:  
+sql/transform_air_quality.sql  
+
+## Tableau Visualizations:
+
+All visualization images are located in:  
+visuals/  
+
+## Visualization Images
+
+Pie Chart  
+![Percent Share of Air Quality Indicators](visuals/Percent Share of Air Quality Indicators.png)
+
+Column Chart  
+![Total Air Quality Value by NYC Neighborhood](visuals/Total Air Quality Value by NYC Neighborhood.png)
+
+Line Chart  
+![Air Quality Trend Over Time](visuals/Air Quality Trend Over Time.png)
+
+Heat Map  
+![Air Quality Intensity by NYC Neighborhood and Year](visuals/Air Quality Intensity by NYC Neighborhood and Year.png)
+
+## Interactive Tableau Workbook:
+The full interactive Tableau workbook can be downloaded here:  
+visuals/assignment_2_nyc_air_quality.twbx  
