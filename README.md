@@ -42,8 +42,6 @@ The bucket is set to be private.
 ## Data Warehouse Model:
 This project uses a star schema with one fact table and three dimension tables.
 
-## Data Warehouse Model (Star Schema):
-
 ## Dimension Tables
 
 **dim_date**
