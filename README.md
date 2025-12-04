@@ -118,7 +118,7 @@ Line Chart
 ![Air Quality Trend Over Time](visuals/Air%20Quality%20Trend%20Over%20Time.png)
 
 Heat Map  
-![Air Quality Intensity by NYC Neighborhood and Year](visuals/Air%20Quality%20I)
+![Air Quality Intensity by NYC Neighborhood and Year](visuals/Air%20Quality%20Intensity%20by%20NYC%20Neighborhood%20and%20Year.png)
 
 ## Interactive Tableau Workbook:
 The full interactive Tableau workbook can be downloaded here:  
