@@ -5,7 +5,7 @@ Assignment 1: It includes data sourcing, data storage, and building a data wareh
 ## Data Source:
 The data comes from NYC Open Data.  
 Dataset: Air Quality  
-Link: https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r  
+Link: [https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r ](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data) 
 
 This dataset contains measurements of air quality indicators for different neighborhoods in New York City.
 
