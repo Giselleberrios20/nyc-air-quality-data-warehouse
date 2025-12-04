@@ -109,16 +109,16 @@ visuals/
 ## Visualization Images
 
 Pie Chart  
-![Percent Share of Air Quality Indicators](visuals/Percent Share of Air Quality Indicators.png)
+![Percent Share of Air Quality Indicators](visuals/Percent%20Share%20of%20Air%20Quality%20Indicators.png)
 
 Column Chart  
-![Total Air Quality Value by NYC Neighborhood](visuals/Total Air Quality Value by NYC Neighborhood.png)
+![Total Air Quality Value by NYC Neighborhood](visuals/Total%20Air%20Quality%20Value%20by%20NYC%20Neighborhood.png)
 
 Line Chart  
-![Air Quality Trend Over Time](visuals/Air Quality Trend Over Time.png)
+![Air Quality Trend Over Time](visuals/Air%20Quality%20Trend%20Over%20Time.png)
 
 Heat Map  
-![Air Quality Intensity by NYC Neighborhood and Year](visuals/Air Quality Intensity by NYC Neighborhood and Year.png)
+![Air Quality Intensity by NYC Neighborhood and Year](visuals/Air%20Quality%20I)
 
 ## Interactive Tableau Workbook:
 The full interactive Tableau workbook can be downloaded here:  
