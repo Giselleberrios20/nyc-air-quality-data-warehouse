@@ -121,3 +121,9 @@ Heat Map
 ## Interactive Tableau Workbook:
 The full interactive Tableau workbook can be downloaded here:  
 visuals/assignment_2_nyc_air_quality.twbx  
+
+## Live Dashboard (Amazon QuickSight)
+
+View NYC Air Quality data that was uploaded AWS here:  
+https://us-east-1.quicksight.aws.amazon.com/sn/account/8976-2744-0366/dashboards/c648b1fe-bc22-4b44-b920-8f5a2e286d83/views/b2052ffa-2b15-45d4-a762-d6920669ee8a
+
